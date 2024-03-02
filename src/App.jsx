@@ -8,6 +8,15 @@ import chevronRight from "./assets/icons/chevronRight.svg";
 import africanAmericanworkerWritingInventoryListWhileCheckingStock from "./assets/img/africanAmericanworkerWritingInventoryListWhileCheckingStock.jpg";
 import teamEmployeesCheckingStock from "./assets/img/teamEmployeesCheckingStock.jpg";
 import closeUpDeliveryPerson from "./assets/img/closeUpDeliveryPerson.jpg";
+import CoTradSarlLogoV1 from "./assets/logo/CoTradSarlLogoV1.jpg";
+
+
+
+
+
+
+
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -20,9 +29,10 @@ function App() {
 
             <div className='logo-name'>
 
-              <div>LOGO</div>
+              {/* <div>LOGO</div> */}
+              <img src={CoTradSarlLogoV1} className='logoV1'/>
 
-              <div>cotrad sarl</div>
+              <span className='logo-text'>cotrad sarl</span>
 
 
             </div>

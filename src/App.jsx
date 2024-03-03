@@ -118,7 +118,14 @@ function App() {
 
                 <div className='card-item'>
 
-                  <img src={africanAmericanworkerWritingInventoryListWhileCheckingStock} className='card-img'/>
+                  <div className='card-filtre-img'>
+
+                    <div className='card-filtre-missions'></div>
+                    <img src={africanAmericanworkerWritingInventoryListWhileCheckingStock} className='card-img'/>
+
+                  </div>
+
+                  
 
                   <div className='card-description'>
 
@@ -131,7 +138,13 @@ function App() {
 
                 <div className='card-item'>
 
-                  <img src={teamEmployeesCheckingStock} className='card-img'/>
+                  <div className='card-filtre-img'>
+
+                    <div className='card-filtre-missions'></div>
+                    <img src={teamEmployeesCheckingStock} className='card-img'/>
+
+                  </div>
+           
 
                   <div className='card-description'>
 
@@ -143,7 +156,12 @@ function App() {
 
                 <div className='card-item'>
 
-                  <img src={closeUpDeliveryPerson} className='card-img'/>
+                  <div className='card-filtre-img'>
+
+                    <div className='card-filtre-missions'></div>
+                    <img src={closeUpDeliveryPerson} className='card-img'/>
+
+                  </div>
 
                   <div className='card-description'>
 
@@ -181,7 +199,14 @@ function App() {
 
                   <span className='card-service-title'>douane & transit</span>
 
-                  <img className='douane-transit' src={industrialPortDeBarcelonaEvening}/>
+                  <div className='card-picture'>
+
+                    <div className='card-filtre'></div>
+                    <img className='douane-transit' src={industrialPortDeBarcelonaEvening}/>
+
+                  </div>
+
+                 
 
 
                 </div>
@@ -190,7 +215,13 @@ function App() {
 
                   <span className='card-service-title'>transport & logistique</span>
 
-                  <img className='douane-transit' src={industrialPortDeBarcelonaEvening}/>
+                  <div className='card-picture'>
+
+                    <div className='card-filtre'></div>
+                    <img className='douane-transit' src={industrialPortDeBarcelonaEvening}/>
+
+                  </div>
+                 
 
 
                 </div>
@@ -199,7 +230,12 @@ function App() {
 
                   <span className='card-service-title'>entreposage</span>
 
+                 <div className='card-picture'>
+
+                  <div className='card-filtre'></div>
                   <img className='douane-transit' src={africanAmericanworkerWritingInventoryListWhileCheckingStock}/>
+
+                 </div>
 
 
                 </div>
@@ -208,7 +244,12 @@ function App() {
 
                   <span className='card-service-title'>fret aerien</span>
 
-                  <img className='douane-transit' src={forkliftBoxesAssortment}/>
+                  <div className='card-picture'>
+
+                    <div className='card-filtre'></div>
+                    <img className='douane-transit' src={forkliftBoxesAssortment}/>
+
+                  </div>
 
 
                 </div>

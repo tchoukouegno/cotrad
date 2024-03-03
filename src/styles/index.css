@@ -366,12 +366,11 @@ a:active {
 .about-text {
 
     font-size: 1.8rem;
-    padding: 100px;
+    padding: 60px;
     text-align: center;
     margin-top: -10px;
     border-radius: 15px;
     background-color:rgba(0, 0, 0, 0.611);
-    /* opacity: 0.3; */
     color: #FFFFFF;
     margin-bottom: 50px;
     
@@ -383,8 +382,8 @@ a:active {
     height: 30px;
     width: 30px;
     position: absolute;
-    top: 200px;
-    right: 150px;
+    top: 150px;
+    right: 130px;
     cursor: pointer;
 
 }
@@ -429,6 +428,28 @@ a:active {
     width:100%;
     height: 190px;
     object-fit: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.card-filtre-img {
+
+    position: relative;
+
+}
+
+.card-filtre-missions {
+
+    height: 190px;
+    width:100%;
+    background-color:black;
+    opacity: 0.7;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0; 
+    color: #FFFFFF;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 
@@ -609,6 +630,27 @@ a:active {
     top: 0; 
     color: #FFFFFF;
 
+
+}
+
+.card-filtre {
+
+    height: 160px;
+    width:100%;
+    background-color:black;
+    opacity: 0.7;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0; 
+    color: #FFFFFF;
+
+
+}
+
+.card-picture  {
+
+    position: relative;
 
 }
 

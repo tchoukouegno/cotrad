@@ -11,7 +11,7 @@ import closeUpDeliveryPerson from "./assets/img/closeUpDeliveryPerson.jpg";
 import CoTradSarlLogoV1 from "./assets/logo/CoTradSarlLogoV1.jpg";
 import CoTradSarlLogoV4 from "./assets/logo/CoTradSarlLogoV4.png";
 import forkliftBoxesAssortment from "./assets/img/forkliftBoxesAssortment.jpg";
-
+import userSolid from "./assets/icons/userSolid.svg";
 
 
 
@@ -218,7 +218,95 @@ function App() {
 
             </div>
 
-           
+        </div>
+
+      </section>
+
+       <section id='background-post'>
+
+        <div className='background-filter'></div>
+
+        <div className='section-text-post'>
+
+            <div className='section-content' id='post'>
+
+              <h1>temoinages</h1>
+              
+              <div className='post-text'>
+
+                  <div className='profil'>
+
+                    <img className='user-profil' src={userSolid}/>
+
+                    
+                  </div>
+
+                  <div className='profil-text'>
+
+                    <span>Service ponctuel, fiable et à l'écoute du client.</span>
+                    
+                    <span>Aissatou diare</span>
+                    <span>entrepreneur</span>
+
+                  </div>
+
+
+
+              </div>
+
+              <div className='post-text'>
+
+                  <div className='profil'>
+
+                  <img className='user-profil' src={userSolid}/>
+
+                  </div>
+
+                  <div className='profil-text'>
+
+                    <span>je recommande vivement ce commissionnaire, très transparent dans leur travail au quotidien.</span>
+                    
+                    <span>joel edimo</span>
+                    <span>Agriculteur</span>
+
+                  </div>
+
+
+
+              </div>
+
+              <div className='post-text'>
+
+                  <div className='profil'>
+
+                    <img className='user-profil' src={userSolid}/>
+                    
+                  </div>
+
+                  <div className='profil-text'>
+
+                    <span>j'ai confié mon cargo, et j'en suis très satisfait. Merci encore pour votre service. Continuez ainsi, vous etes les meilleurs. </span>
+                    
+                    <span>Rodrigue kemmo</span>
+                    <span>entrepreneur</span>
+
+                  </div>
+
+
+
+              </div>
+
+
+            </div>
+
+            <div>
+
+
+                <img className='img-post' src={africanAmericanworkerWritingInventoryListWhileCheckingStock}/>
+
+
+
+            </div>
 
         </div>
 

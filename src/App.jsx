@@ -32,7 +32,6 @@ function App() {
 
             <div className='logo-name'>
 
-              {/* <div>LOGO</div> */}
               <img src={CoTradSarlLogoV1} className='logoV1'/>
 
               <span className='logo-text'>cotrad sarl</span>
@@ -66,9 +65,8 @@ function App() {
 
                 <h1 className='header-title'>transitaire et commissionnaire de transport international</h1>
 
-                <p className='header-description'>Nous assurons les meilleurs couts, delais et conditionnements des marchandises du dédouanement à la livraison.</p>
+                <p className='header-description'>Nous assurons les meilleurs coûts, délais et conditionnements des marchandises du dédouanement à la livraison.</p>
 
-                {/* <div className='header-description'>LOGO</div> */}
                 <img className='logo-v4' src={CoTradSarlLogoV4}/>
 
               </div>                
@@ -90,7 +88,7 @@ function App() {
 
               <h1>A propos de nous</h1>
               
-              <p className='about-text'>Consulting & Trade, Commissionnaire agréé en Douane, notre role consiste à gérer les formalités douanières pour le compte des entreprises et des particuliers. Immatriculé auprès de la direction générale des Douanes depuis 2015</p>
+              <p className='about-text'>Consulting & Trade, Commissionnaire agréé en Douane, notre rôle consiste à gérer les formalités douanières pour le compte des entreprises et des particuliers. Immatriculé auprès de la direction générale des Douanes depuis 2015</p>
 
 
             </div>
@@ -109,7 +107,7 @@ function App() {
 
               <h1>notre mission</h1>
               
-              <p className='about-text'>Aider les entreprises à se developper et à réduire leurs couts grace à un service ponctuel, adapt aux besoins du client</p>
+              <p className='about-text'>Aider les entreprises à se developper et à réduire leurs coûts grâce à un service ponctuel, adapté aux besoins du client.</p>
 
               <img src={chevronRight} alt='chevron right' className='chevronRight'/>
 
@@ -150,7 +148,7 @@ function App() {
                   <div className='card-description'>
 
                     <h3>service d' entrepot</h3>
-                    <p>Nous disposons d'un entrepot de avec une capacité de plus de 200m2 pour accueillir vos marchandises et produits </p>
+                    <p>Nous disposons d'un entrepôt de avec une capacité de plus de 2000m² pour accueillir vos marchandises ou produits. </p>
                   </div>
 
                 </div>
@@ -192,7 +190,7 @@ function App() {
 
               <h1>Nos services</h1>
               
-              <p className='about-text'>Grace a nos services concentrez-vous sur le developpement de votre activité et confiez-nous toute votre chaine logistique</p>
+              <p className='about-text'>Grâce à nos services concentrez-vous sur le développement de votre activité et confiez-nous toute votre chaine logistique.</p>
 
               <div className='card-services'>
 
@@ -327,7 +325,7 @@ function App() {
 
                   <div className='profil-text'>
 
-                    <span>j'ai confié mon cargo, et j'en suis très satisfait. Merci encore pour votre service. Continuez ainsi, vous etes les meilleurs. </span>
+                    <span>j'ai confié mon cargo, et j'en suis très satisfait. Merci encore pour votre service. Continuez ainsi, vous êtes les meilleurs. </span>
                     
                     <span>Rodrigue kemmo</span>
                     <span>entrepreneur</span>

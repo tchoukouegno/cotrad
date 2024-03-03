@@ -299,9 +299,9 @@ function App() {
 
             </div>
 
-            <div>
+            <div className='post'>
 
-
+                <div className='post-filtre'></div>
                 <img className='img-post' src={africanAmericanworkerWritingInventoryListWhileCheckingStock}/>
 
 

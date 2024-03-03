@@ -529,8 +529,6 @@ a:active {
 
 .post-text {
 
-
-    border-radius: 15px;
     background-color:rgba(0, 0, 0, 0.611);
     color: #FFFFFF;
     margin-bottom: 20px;
@@ -589,6 +587,27 @@ a:active {
     width: 150px;
     height: 160px;
     padding-top: 10px;
+
+
+}
+
+.post {
+
+    position: relative;
+
+}
+
+.post-filtre {
+
+    height: 700px;
+    width:100%;
+    background-color:black;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0; 
+    color: #FFFFFF;
 
 
 }

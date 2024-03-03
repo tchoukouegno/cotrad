@@ -9,7 +9,8 @@ import africanAmericanworkerWritingInventoryListWhileCheckingStock from "./asset
 import teamEmployeesCheckingStock from "./assets/img/teamEmployeesCheckingStock.jpg";
 import closeUpDeliveryPerson from "./assets/img/closeUpDeliveryPerson.jpg";
 import CoTradSarlLogoV1 from "./assets/logo/CoTradSarlLogoV1.jpg";
-import CoTradSarlLogoV4 from "./assets/logo/CoTradSarlLogoV4.png"
+import CoTradSarlLogoV4 from "./assets/logo/CoTradSarlLogoV4.png";
+import forkliftBoxesAssortment from "./assets/img/forkliftBoxesAssortment.jpg";
 
 
 
@@ -43,7 +44,7 @@ function App() {
               <li className='active'>accueil</li>
               <li className='active-propos'><a href="#propos">a propos de nous</a></li>
               <li className='active-mission'><a href="#missions">notre mission</a></li>
-              <li className='active-services'><a>nos services</a></li>
+              <li className='active-services'><a href='#services'>nos services</a></li>
               <li className='active-post'><a>temoinages</a></li>
               <li className='active-contacts'><a>contacts</a></li>
 
@@ -168,14 +169,56 @@ function App() {
 
         <div className='section-text'>
 
-            <div className='section-content'>
+            <div className='section-content' id='services'>
 
               <h1>Nos services</h1>
               
               <p className='about-text'>Grace a nos services concentrez-vous sur le developpement de votre activité et confiez-nous toute votre chaine logistique</p>
 
+              <div className='card-services'>
+
+                <div className='card-service'>
+
+                  <span className='card-service-title'>douane & transit</span>
+
+                  <img className='douane-transit' src={industrialPortDeBarcelonaEvening}/>
+
+
+                </div>
+
+                <div>
+
+                  <span className='card-service-title'>transport & logistique</span>
+
+                  <img className='douane-transit' src={industrialPortDeBarcelonaEvening}/>
+
+
+                </div>
+
+                <div>
+
+                  <span className='card-service-title'>entreposage</span>
+
+                  <img className='douane-transit' src={africanAmericanworkerWritingInventoryListWhileCheckingStock}/>
+
+
+                </div>
+
+                <div>
+
+                  <span className='card-service-title'>fret aerien</span>
+
+                  <img className='douane-transit' src={forkliftBoxesAssortment}/>
+
+
+                </div>
+
+              </div>
+
 
             </div>
+
+           
 
         </div>
 

@@ -277,7 +277,7 @@ a:active {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 600px;
+    height: 700px;
     margin-top: -4px;
     position: relative;
    
@@ -440,6 +440,47 @@ a:active {
 .card-description p {
 
     font-size: 1.1rem;
+
+}
+
+.douane-transit {
+
+    height: 160px;
+    /* width: 230px; */
+    width: 100%;
+    object-fit: cover;
+
+
+}
+
+.card-services {
+
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.card-service {
+
+    display: flex;
+    flex-direction: column;
+
+    
+
+}
+
+.card-service-title {
+
+    background-color: var(--main-color-);
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 15px;
+    display: block;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
 
 }
 

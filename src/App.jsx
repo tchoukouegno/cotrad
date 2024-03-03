@@ -29,7 +29,7 @@ function App() {
 
             <div className='logo-name'>
 
-              {/* <div>LOGO</div> */}
+              <div>LOGO</div>
               <img src={CoTradSarlLogoV1} className='logoV1'/>
 
               <span className='logo-text'>cotrad sarl</span>

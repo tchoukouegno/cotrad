@@ -56,10 +56,7 @@ html,body {
 
     display: flex;
     justify-content: space-between;
-    /* padding-top: 35px; */
-    /* padding-left: 30px; */
     padding-right: 30px;
-    /* padding-bottom: 30px; */
     text-transform: uppercase;
     font-weight: bold;
     color: var(--main-color-);
@@ -73,8 +70,7 @@ nav {
     gap: 20px;
     cursor: pointer;
     font-size:0.9rem ;
-    align-items: center;
-   
+    align-items: center;   
 
 }
 
@@ -359,8 +355,6 @@ a:active {
     padding-left: 100px;
     padding-right: 100px;
 
-
-
 }
 
 .section-text div h1 {
@@ -399,7 +393,6 @@ a:active {
 .mission-description {
 
     position: relative;
-    /* background-color: #337F38; */
     height: 100%;
     padding-left: 100px;
     padding-right: 100px;
@@ -688,6 +681,181 @@ a:active {
     background-color: black;
     margin-top: -5px;
     width: 100%;
+
+
+}
+
+/* Tablette*/ 
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+
+    .nav-bar {
+
+        padding-right: 5px;
+    
+    }
+
+    nav {
+
+        gap: 5px;
+        font-size:0.6rem ;
+    
+    }
+
+    .active {
+ 
+        padding: 5px;
+    
+    }
+
+    .active-propos a:hover {
+ 
+        padding: 4;
+        font-size: 0.6rem; 
+        background-color: #FFFFFF !important; 
+        color:var(--main-color-); 
+    
+    }
+
+    .active-mission a:hover {
+ 
+        padding: 4;
+        font-size: 0.6rem; 
+        background-color: #FFFFFF !important; 
+        color:var(--main-color-); 
+    
+    }
+
+    .active-services a:hover {
+ 
+        padding: 4;
+        font-size: 0.6rem; 
+        background-color: #FFFFFF !important; 
+        color:var(--main-color-); 
+    
+    }
+
+    .active-post a:hover {
+ 
+        padding: 4;
+        font-size: 0.6rem; 
+        background-color: #FFFFFF !important; 
+        color:var(--main-color-); 
+    
+    }
+
+    .active-contacts a:hover {
+ 
+        padding: 4;
+        font-size: 0.6rem; 
+        background-color: #FFFFFF !important; 
+        color:var(--main-color-); 
+    
+    }
+
+    nav li a {
+
+        padding: 4px;   
+    
+    }
+
+    .logoV1 {
+
+        height: 70px;
+        width: 70px;
+    
+    }
+
+    
+    .logo-name {
+
+        gap: 5px;
+
+    }
+
+    .logo-text {
+
+        font-size: 1.3rem;
+        width: 150px;
+    
+    }
+
+    .about-text {
+
+        font-size: 1.8rem;
+        padding: 60px;
+        text-align: center;
+        margin-top: -10px;
+        border-radius: 15px;
+        background-color:rgba(0, 0, 0, 0.611);
+        color: #FFFFFF;
+        margin-bottom: 50px;
+        
+    
+    }.about-text {
+
+        font-size: 1.6rem;
+        padding: 50px;
+    
+    }
+
+    .section-text div h1 {
+
+        font-size: 1.8rem;
+     
+    }
+
+    .chevronRight {
+
+        top: 160px;
+        right: 120px;
+       
+    }
+
+    .card-description {
+
+        text-align: center;
+        padding-left: 7px;
+        padding-right: 7px;
+    
+    }
+
+    .card-description h3 {
+
+        font-size: 1.2rem;
+    
+    }
+
+    .card-description p {
+
+        font-size: 0.9rem;
+    
+    }
+
+    .card-services {
+
+        display: flex;
+        justify-content: space-between;
+        /* flex-wrap: wrap; */
+        gap: 10px;
+       
+    }
+
+    .logo-v5 {
+
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        bottom: 0px;
+    
+    }
+
+    
+
+    
+
+
 
 
 }

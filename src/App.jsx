@@ -369,7 +369,6 @@ function App() {
                 <span className='header-description'  id='contact-description'>Tél : +237 673673267 / Portable : +237 654167168 - 692500261</span>
                 <span className='header-description'  id='contact-description'>contact@cotradsarl.com</span>
 
-                {/* <div className='header-description'>LOGO</div> */}
                 <img className='logo-v5' src={CoTradSarlLogoV5}/>
 
               </div>                

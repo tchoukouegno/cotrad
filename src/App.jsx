@@ -10,6 +10,7 @@ import teamEmployeesCheckingStock from "./assets/img/teamEmployeesCheckingStock.
 import closeUpDeliveryPerson from "./assets/img/closeUpDeliveryPerson.jpg";
 import CoTradSarlLogoV1 from "./assets/logo/CoTradSarlLogoV1.jpg";
 import CoTradSarlLogoV4 from "./assets/logo/CoTradSarlLogoV4.png";
+import CoTradSarlLogoV5 from "./assets/logo/CoTradSarlLogoV5.png";
 import forkliftBoxesAssortment from "./assets/img/forkliftBoxesAssortment.jpg";
 import userSolid from "./assets/icons/userSolid.svg";
 
@@ -352,6 +353,42 @@ function App() {
         </div>
 
       </section>
+
+
+       <div className='header-filtre'>
+
+            <img src={industrialPortDeBarcelonaEvening} alt="" className='header-background'/>
+
+            <div className='filtre'></div>
+
+            <div className='filter-content'>
+
+              <div>
+
+                <p className='header-title' id='contact-title'>Contactez-nous:</p>
+
+                <span className='header-description' id='contact-description'>Cameroon, Yaoundé | Nkoabang </span>
+                <span className='header-description'  id='contact-description'>Tél : +237 673673267 / Portable : +237 654167168 - 692500261</span>
+                <span className='header-description'  id='contact-description'>contact@cotradsarl.com</span>
+
+                {/* <div className='header-description'>LOGO</div> */}
+                <img className='logo-v5' src={CoTradSarlLogoV5}/>
+
+              </div>                
+
+            </div>
+
+            <div className='copyright'>
+
+              <p>© 2024 COTRAD SARL | OEConception Theme</p>
+
+            </div>
+
+
+          </div>
+
+         
+      
       
     </>
   )

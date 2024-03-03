@@ -44,6 +44,14 @@ html,body {
 
 }
 
+.logo-v5 {
+
+    height: 280px;
+    width: 280px;
+    position: absolute;
+    bottom: 20px;
+
+}
 .nav-bar {
 
     display: flex;
@@ -555,7 +563,9 @@ a:active {
     margin-bottom: 20px;
     display: flex;
     height: 160px;
-    /* width: 800px; */
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-right: 10px;
     
     
 }
@@ -622,13 +632,13 @@ a:active {
 
     height: 700px;
     width:100%;
-    background-color:black;
-    opacity: 0.5;
+    background-color:rgba(0, 0, 0, 0.475);
     position: absolute;
     z-index: 1;
     left: 0;
     top: 0; 
     color: #FFFFFF;
+    border: 1px solid #FFFFFF;
 
 
 }
@@ -651,6 +661,35 @@ a:active {
 .card-picture  {
 
     position: relative;
+
+}
+
+#contact-description {
+
+    font-size: 1.8rem;
+    width: 100%;
+    display: block;
+
+}
+
+#contact-title {
+
+    font-size: 1.8rem;
+    text-transform: none;
+
+}
+
+.copyright {
+
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: black;
+    margin-top: -5px;
+    width: 100%;
+
 
 }
 

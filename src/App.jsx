@@ -46,8 +46,8 @@ function App() {
               <li className='active-propos'><a href="#propos">a propos de nous</a></li>
               <li className='active-mission'><a href="#missions">notre mission</a></li>
               <li className='active-services'><a href='#services'>nos services</a></li>
-              <li className='active-post'><a>temoinages</a></li>
-              <li className='active-contacts'><a>contacts</a></li>
+              <li className='active-post'><a href='#post'>temoinages</a></li>
+              <li className='active-contacts'><a href='#contacts'>contacts</a></li>
 
 
             </nav>
@@ -355,7 +355,7 @@ function App() {
       </section>
 
 
-       <div className='header-filtre'>
+       <div className='header-filtre' id="contacts">
 
             <img src={industrialPortDeBarcelonaEvening} alt="" className='header-background'/>
 

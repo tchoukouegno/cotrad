@@ -9,6 +9,7 @@ import africanAmericanworkerWritingInventoryListWhileCheckingStock from "./asset
 import teamEmployeesCheckingStock from "./assets/img/teamEmployeesCheckingStock.jpg";
 import closeUpDeliveryPerson from "./assets/img/closeUpDeliveryPerson.jpg";
 import CoTradSarlLogoV1 from "./assets/logo/CoTradSarlLogoV1.jpg";
+import CoTradSarlLogoV4 from "./assets/logo/CoTradSarlLogoV4.png"
 
 
 
@@ -29,7 +30,7 @@ function App() {
 
             <div className='logo-name'>
 
-              <div>LOGO</div>
+              {/* <div>LOGO</div> */}
               <img src={CoTradSarlLogoV1} className='logoV1'/>
 
               <span className='logo-text'>cotrad sarl</span>
@@ -39,12 +40,12 @@ function App() {
 
             <nav>
 
-              <li>accueil</li>
-              <li>a propos de nous</li>
-              <li>notre mission</li>
-              <li>nos services</li>
-              <li>temoinages</li>
-              <li>contacts</li>
+              <li className='active'>accueil</li>
+              <li className='active-propos'><a href="#propos">a propos de nous</a></li>
+              <li className='active-mission'><a href="#missions">notre mission</a></li>
+              <li className='active-services'><a>nos services</a></li>
+              <li className='active-post'><a>temoinages</a></li>
+              <li className='active-contacts'><a>contacts</a></li>
 
 
             </nav>
@@ -65,7 +66,8 @@ function App() {
 
                 <p className='header-description'>Nous assurons les meilleurs couts, delais et conditionnements des marchandises du dédouanement à la livraison.</p>
 
-                <div className='header-description'>LOGO</div>
+                {/* <div className='header-description'>LOGO</div> */}
+                <img className='logo-v4' src={CoTradSarlLogoV4}/>
 
               </div>                
 
@@ -82,7 +84,7 @@ function App() {
 
         <div className='section-text'>
 
-            <div className='section-content'>
+            <div className='section-content' id='propos'>
 
               <h1>A propos de nous</h1>
               
@@ -101,7 +103,7 @@ function App() {
 
         <div className='section-text'>
 
-            <div className='mission-description'>
+            <div className='mission-description' id='missions'>
 
               <h1>notre mission</h1>
               

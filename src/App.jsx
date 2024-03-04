@@ -17,6 +17,7 @@ import barsSolid from "./assets/icons/barsSolid.svg";
 import paquebot from "./assets/img/paquebot.jpeg";
 import womenCheck from "./assets/img/womenCheck.jpeg";
 import boyTalk from "./assets/img/boyTalk.jpeg";
+import carton from "./assets/img/carton.jpeg";
 
 
 
@@ -36,7 +37,7 @@ function App() {
 }
 
   return (
-    <>
+    <div className='bloc-page'>
 
       <header>
 
@@ -166,17 +167,19 @@ function App() {
 
       </section>
 
-      <section id='background-missions'>
+
+      <section id='background-missions' >
 
         <div className='background-filter'></div>
 
-        <div className='section-text'>
+        <div className='section-text' id='missions'>
 
-            <div className='mission-description' id='missions'>
+            <div className='mission-description' >
 
-              <h1>notre mission</h1>
+              <h1 >notre mission</h1>
               
               <p className='about-text'>Aider les entreprises à se developper et à réduire leurs coûts grâce à un service ponctuel, adapté aux besoins du client.</p>
+
 
               <img src={chevronRight} alt='chevron right' className='chevronRight'/>
 
@@ -186,15 +189,6 @@ function App() {
 
                 <div className='card-item'>
 
-                  <div className='card-filtre-img'>
-
-                    <div className='card-filtre-missions'></div>
-                    <img src={africanAmericanworkerWritingInventoryListWhileCheckingStock} className='card-img'/>
-
-                  </div>
-
-                  
-
                   <div className='card-description'>
 
                     <h3>Emballage et stockage</h3>
@@ -202,17 +196,20 @@ function App() {
 
                   </div>                
 
-                </div>
-
-                <div className='card-item'>
 
                   <div className='card-filtre-img'>
 
                     <div className='card-filtre-missions'></div>
-                    <img src={teamEmployeesCheckingStock} className='card-img'/>
+                    <img src={carton} className='card-img'/>
 
                   </div>
-           
+
+                  
+
+                  
+                </div>
+
+                <div className='card-item'>                
 
                   <div className='card-description'>
 
@@ -220,9 +217,23 @@ function App() {
                     <p>Nous disposons d'un entrepôt de avec une capacité de plus de 2000m² pour accueillir vos marchandises ou produits. </p>
                   </div>
 
+                   <div className='card-filtre-img'>
+
+                    <div className='card-filtre-missions'></div>
+                    <img src={teamEmployeesCheckingStock} className='card-img'/>
+
+                  </div>
+
                 </div>
 
                 <div className='card-item'>
+
+                   <div className='card-description'>
+
+                    <h3>service de livraison </h3>
+                    <p>Un service de livraison fiable et disponible en Afrique (Cameroun, Tchad, et Centrafrique)</p>
+
+                  </div>
 
                   <div className='card-filtre-img'>
 
@@ -231,12 +242,7 @@ function App() {
 
                   </div>
 
-                  <div className='card-description'>
-
-                    <h3>service de livraison </h3>
-                    <p>Un service de livraison fiable et disponible en Afrique (Cameroun, Tchad, et Centrafrique)</p>
-
-                  </div>
+                 
 
                 </div>
 
@@ -465,7 +471,7 @@ function App() {
          
       
       
-    </>
+    </div>
   )
 }
 

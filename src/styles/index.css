@@ -60,6 +60,13 @@ html,body {
     bottom: 20px;
 
 }
+
+.bloc-page {
+
+    position: relative;
+    /* padding-top: 50px; */
+
+}
 .nav-bar {
 
     display: flex;
@@ -68,6 +75,11 @@ html,body {
     text-transform: uppercase;
     font-weight: bold;
     color: var(--main-color-);
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    margin-top: -100px;
+    background-color: #FFFFFF;
 
 }
 
@@ -243,9 +255,17 @@ a:active {
 
 }
 
+#contacts {
+
+    margin-top: 0;
+
+
+}
+
 .header-filtre {
 
     position: relative;
+    margin-top: 100px;
     /* padding-left: 30px;
     padding-right: 30px; */
     /* max-width: 1400px;
@@ -382,8 +402,13 @@ a:active {
     border-radius: 15px;
     background-color:rgba(0, 0, 0, 0.611);
     color: #FFFFFF;
-    margin-bottom: 50px;
-    
+    margin-bottom: 50px;    
+
+}
+
+#about-text-button {
+
+    padding: 100px;
 
 }
 
@@ -421,7 +446,7 @@ a:active {
 
 .card-item {
 
-    height: 400px;
+    height: 190px;
     width: 100%;
     background-color:rgba(0, 0, 0, 0.611);
     color: #FFFFFF;
@@ -437,8 +462,6 @@ a:active {
     width:100%;
     height: 190px;
     object-fit: cover;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
 
 }
 
@@ -459,8 +482,7 @@ a:active {
     left: 0;
     top: 0; 
     color: #FFFFFF;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+   
 
 }
 
@@ -469,6 +491,7 @@ a:active {
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+    height: 130px;
 
 }
 
@@ -717,6 +740,15 @@ a:active {
     left: 30px;
     z-index: 11;
 
+}
+
+#email-about {
+
+    top: 00px;
+    bottom: 0;
+   left: 0;
+   width: 100%;
+   
 }
 
 /* Tablette*/ 

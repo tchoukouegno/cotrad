@@ -13,6 +13,7 @@ import CoTradSarlLogoV4 from "./assets/logo/CoTradSarlLogoV4.png";
 import CoTradSarlLogoV5 from "./assets/logo/CoTradSarlLogoV5.png";
 import forkliftBoxesAssortment from "./assets/img/forkliftBoxesAssortment.jpg";
 import userSolid from "./assets/icons/userSolid.svg";
+import barsSolid from "./assets/icons/barsSolid.svg";
 
 
 
@@ -22,6 +23,14 @@ import userSolid from "./assets/icons/userSolid.svg";
 
 function App() {
   const [count, setCount] = useState(0)
+
+  const[menuBar, setIsmenuBar]=useState(false);
+
+  const handleMenu = ()=>{
+
+    setIsmenuBar(!menuBar);
+
+}
 
   return (
     <>
@@ -39,17 +48,74 @@ function App() {
 
             </div>
 
-            <nav>
+             {menuBar === true ? 
 
-              <li className='active'>accueil</li>
-              <li className='active-propos'><a href="#propos">a propos de nous</a></li>
-              <li className='active-mission'><a href="#missions">notre mission</a></li>
-              <li className='active-services'><a href='#services'>nos services</a></li>
-              <li className='active-post'><a href='#post'>temoinages</a></li>
-              <li className='active-contacts'><a href='#contacts'>contacts</a></li>
+
+                
+            <nav className='mobile-version'>
+
+                <li className='active'>accueil</li>
+                <li className='active-propos'><a href="#propos">a propos de nous</a></li>
+                <li className='active-mission'><a href="#missions">notre mission</a></li>
+                <li className='active-services'><a href='#services'>nos services</a></li>
+                <li className='active-post'><a href='#post'>temoinages</a></li>
+                <li className='active-contacts'><a href='#contacts'>contacts</a></li>
 
 
             </nav>
+
+                // <nav >
+
+                //     <ul className="nav-bar">
+                //         <li className={active}><a onClick={handleHome}>{accueil}</a></li>
+                //         <li className={activeServices}><a onClick={handleServices} id={ancre}>SERVICES</a></li>
+                //         <li className={activeTech} onClick={handleTechno}>TECHNOLOGIES</li>
+                //         <li className={activePropos} onClick={handlePropos}>{propos}</li>
+                //         <li className="multi-langue"  onClick={handleChange}>{language} <img src={chevronDownSolid} className="chevron-down"/></li>
+                        
+
+                //     </ul>
+
+                //     <span onClick={handleOtherLanguage} className={change === true ?"change-language": "hidden"}>{other}</span>
+
+                // </nav>
+
+                :
+
+                
+                  <nav className="desktop-version">
+
+                    <li className='active'>accueil</li>
+                    <li className='active-propos'><a href="#propos">a propos de nous</a></li>
+                    <li className='active-mission'><a href="#missions">notre mission</a></li>
+                    <li className='active-services'><a href='#services'>nos services</a></li>
+                    <li className='active-post'><a href='#post'>temoinages</a></li>
+                    <li className='active-contacts'><a href='#contacts'>contacts</a></li>
+
+
+                </nav>
+                
+                // <nav className="desktop-version">
+
+                //     <ul className="nav-bar">
+                //         <li className={active}><a onClick={handleHome}>{accueil}</a></li>
+                //         <li className={activeServices}><a onClick={handleServices} >SERVICES</a></li>
+                //         <li className={activeTech} onClick={handleTechno}>TECHNOLOGIES</li>
+                //         <li className={activePropos} onClick={handlePropos}>{propos}</li>
+                //         <li className="multi-langue" id="multi-langue" onClick={handleChange}>{language} <img src={chevronDownSolid} className="chevron-down"/></li>
+                        
+
+                //     </ul>
+
+                //     <span onClick={handleOtherLanguage} className={change === true ?"change-language": "hidden"}>{other}</span>
+
+                // </nav>
+                
+                }
+
+
+
+            <img src={barsSolid} alt="menu bars" onClick={handleMenu} className="menu-bars"/>
 
           </div>
 

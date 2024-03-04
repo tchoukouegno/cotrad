@@ -37,7 +37,7 @@ function App() {
 }
 
   return (
-    <div className='bloc-page'>
+    <div>
 
       <header>
 
@@ -147,6 +147,7 @@ function App() {
           </div>
 
       </header>
+
 
       <section id='background-about'>
 

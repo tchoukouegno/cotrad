@@ -64,6 +64,8 @@ html,body {
 .bloc-page {
 
     position: relative;
+    max-width: 1400px;
+     margin: 0 auto; 
     /* padding-top: 50px; */
 
 }
@@ -300,6 +302,7 @@ a:active {
     height: 600px;
     margin-top: -4px;
     position: relative;
+    
    
 }
 
@@ -345,6 +348,7 @@ a:active {
     background-color:#FFFFFF;
     opacity: 0.6;
     height: 100%;
+    
 
 
 }
@@ -375,6 +379,7 @@ a:active {
     display: flex;
     align-items: center;
     justify-content: center;
+     
 
 }
 
@@ -382,6 +387,8 @@ a:active {
 
     padding-left: 100px;
     padding-right: 100px;
+    max-width: 1400px;
+    margin: 0 auto; 
 
 }
 
@@ -429,6 +436,8 @@ a:active {
     height: 100%;
     padding-left: 100px;
     padding-right: 100px;
+    max-width: 1400px;
+    margin: 0 auto; 
 
 
 }
@@ -646,6 +655,8 @@ a:active {
 .post {
 
     position: relative;
+    max-width: 1400px;
+    margin: 0 auto; 
 
 }
 

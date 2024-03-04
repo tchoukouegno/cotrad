@@ -610,7 +610,6 @@ a:active {
     height: 160px;
     padding-top: 10px;
 
-
 }
 
 .post {
@@ -858,7 +857,38 @@ a:active {
     
     }
 
+    .img-post {
+
+
+        width:300px;
+        height: 700px;
+        object-fit: cover;
     
+    }
+
+    .section-text-post {
+
+        gap: 0px;
+        padding-right: 60px;
+        
+    }
+
+    
+    .section-text-post h1 {
+
+        font-size: 1.8rem;
+
+    }
+
+    .user-profil {
+
+        width: 130px;
+        height: 160px;
+        padding-top: 7px;
+    
+    }
+
+
 
     
 

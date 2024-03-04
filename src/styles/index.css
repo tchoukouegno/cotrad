@@ -889,14 +889,20 @@ a:active {
 
     .card-description h3 {
 
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     
     }
 
     .card-description p {
 
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     
+    }
+
+    .card-description {
+
+        height: 170px;
+
     }
 
     .card-services {
@@ -905,7 +911,19 @@ a:active {
         justify-content: space-between;
         /* flex-wrap: wrap; */
         gap: 10px;
+
        
+    }
+
+    .card-item {
+
+        height: 200px;
+        
+
+        /* background-color: red; */
+        
+    
+
     }
 
     .logo-v5 {
@@ -1149,7 +1167,7 @@ a:active {
     .mission-description {
 
         position: relative;
-        height: 100%;
+        /* height: 100%; */
         padding-left: 15px;
         padding-right: 15px;
     
@@ -1160,7 +1178,10 @@ a:active {
 
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 30px;
+        /* height: 100%; */
+        /* margin-bottom: 50px; */
+        /* background-color: red; */
 
         /* justify-content: space-around; */
     
@@ -1175,9 +1196,11 @@ a:active {
     
     }
 
+
+
     .card-description h3 {
 
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         
     
     }
@@ -1188,7 +1211,7 @@ a:active {
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        height: 1650px;
+        height: 1450px;
         /* margin-top: -4px; */
         position: relative;
         /* margin-bottom: 250px; */
@@ -1383,7 +1406,14 @@ a:active {
         margin-top: -5px;
         width: 100%;
         font-size: 0.8rem;
-    }   
+    }  
+    
+    .card-item {
+
+        margin-bottom: 130px;
+
+    }
+    
     
 
 

@@ -58,12 +58,12 @@ function App() {
                 
             <nav className='mobile-version'>
 
-                <li className='active'>accueil</li>
-                <li className='active-propos'><a href="#propos">a propos de nous</a></li>
-                <li className='active-mission'><a href="#missions">notre mission</a></li>
-                <li className='active-services'><a href='#services'>nos services</a></li>
-                <li className='active-post'><a href='#post'>temoinages</a></li>
-                <li className='active-contacts'><a href='#contacts'>contacts</a></li>
+                <li className='active' onClick={handleMenu} >accueil</li>
+                <li className='active-propos' onClick={handleMenu} ><a href="#propos">a propos de nous</a></li>
+                <li className='active-mission' onClick={handleMenu} ><a href="#missions">notre mission</a></li>
+                <li className='active-services' onClick={handleMenu} ><a href='#services'>nos services</a></li>
+                <li className='active-post' onClick={handleMenu} ><a href='#post'>temoinages</a></li>
+                <li className='active-contacts' onClick={handleMenu} ><a href='#contacts'>contacts</a></li>
 
 
             </nav>
@@ -176,7 +176,7 @@ function App() {
 
             <div className='mission-description' >
 
-              <h1 >notre mission</h1>
+              <h1>notre mission</h1>
               
               <p className='about-text'>Aider les entreprises à se developper et à réduire leurs coûts grâce à un service ponctuel, adapté aux besoins du client.</p>
 

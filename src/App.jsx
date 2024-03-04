@@ -14,6 +14,9 @@ import CoTradSarlLogoV5 from "./assets/logo/CoTradSarlLogoV5.png";
 import forkliftBoxesAssortment from "./assets/img/forkliftBoxesAssortment.jpg";
 import userSolid from "./assets/icons/userSolid.svg";
 import barsSolid from "./assets/icons/barsSolid.svg";
+import paquebot from "./assets/img/paquebot.jpeg";
+import womenCheck from "./assets/img/womenCheck.jpeg";
+import boyTalk from "./assets/img/boyTalk.jpeg";
 
 
 
@@ -121,7 +124,7 @@ function App() {
 
           <div className='header-filtre'>
 
-            <img src={industrialPortDeBarcelonaEvening} alt="" className='header-background'/>
+            <img src={paquebot} alt="" className='header-background'/>
 
             <div className='filtre'></div>
 
@@ -283,7 +286,7 @@ function App() {
                   <div className='card-picture'>
 
                     <div className='card-filtre'></div>
-                    <img className='douane-transit' src={industrialPortDeBarcelonaEvening}/>
+                    <img className='douane-transit' src={womenCheck}/>
 
                   </div>
                  
@@ -408,7 +411,7 @@ function App() {
             <div className='post'>
 
                 <div className='post-filtre'></div>
-                <img className='img-post' src={africanAmericanworkerWritingInventoryListWhileCheckingStock}/>
+                <img className='img-post' src={boyTalk}/>
 
 
 
@@ -421,7 +424,9 @@ function App() {
 
        <div className='header-filtre' id="contacts">
 
-            <img src={industrialPortDeBarcelonaEvening} alt="" className='header-background'/>
+        
+
+            <img src={paquebot} alt="" className='header-background'/>
 
             <div className='filtre'></div>
 
@@ -438,6 +443,13 @@ function App() {
                 <img className='logo-v5' src={CoTradSarlLogoV5}/>
 
               </div>                
+
+            </div>
+
+            <div className='mail'>
+
+                <span className='email'>Ecrivez nous par</span>
+                <span className='email-contact'>E-mail</span>
 
             </div>
 

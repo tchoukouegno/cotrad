@@ -273,7 +273,7 @@ a:active {
 
 #background-about {
 
-    background-image: url('../assets/img/aerialViewCargoShipCargoContainerHarbor.jpg');
+    background-image: url('../assets/img/industrialPortDeBarcelonaEvening.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -689,6 +689,33 @@ a:active {
     margin-top: -5px;
     width: 100%;
 
+
+}
+
+.email {
+
+    background-color: var(--main-color-);
+    color: #FFFFFF;
+    padding: 13px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+
+}
+
+.email-contact {
+
+    background-color: #FFFFFF;
+    padding: 13px;
+    color: var(--main-color-);
+
+}
+
+.mail {
+
+    position: absolute;
+    top:40px;
+    left: 30px;
+    z-index: 11;
 
 }
 
@@ -1302,6 +1329,7 @@ a:active {
         bottom: 0px;
     
     }
+
 
     
     #contact-description {

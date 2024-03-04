@@ -281,7 +281,7 @@ function App() {
                     
                   </div>
 
-                  <div className='profil-text'>
+                  <div className='profil-text' id="profil-name">
 
                     <span>Service ponctuel, fiable et à l'écoute du client.</span>
                     
@@ -323,7 +323,7 @@ function App() {
                     
                   </div>
 
-                  <div className='profil-text'>
+                  <div className='profil-text' id='profil-last'>
 
                     <span>j'ai confié mon cargo, et j'en suis très satisfait. Merci encore pour votre service. Continuez ainsi, vous êtes les meilleurs. </span>
                     

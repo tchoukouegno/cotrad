@@ -346,7 +346,7 @@ function App() {
 
             <div className='section-content' id='post'>
 
-              <h1>temoinages</h1>
+              {/* <h1>temoinages</h1> */}
               
               <div className='post-text'>
 
